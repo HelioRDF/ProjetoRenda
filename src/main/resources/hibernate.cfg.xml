@@ -22,5 +22,8 @@
               <!-- Cria as tabelas do banco de dados -->
               <property name="hbm2ddl.auto">create</property>
 
+              <!-- Mapeamento das entidades -->
+              <mapping class="br.com.projetorenda.domain.Estado" />
+               
        </session-factory>
 </hibernate-configuration>
